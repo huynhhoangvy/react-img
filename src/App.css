@@ -1,3 +1,7 @@
+#root {
+  background-image: url("./assets/img/bg.jpeg")
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +23,12 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px!important; } }
+    
+.user-avatar {
+  border-radius: 50%;
 }
